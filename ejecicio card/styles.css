@@ -1,0 +1,46 @@
+
+.contenedor {
+    display: flex;
+}
+
+.carta1 {
+    background-color: orange;
+    width: 330px;
+    height: 500px;
+    border: solid;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.carta2 {
+    
+}
+
+.titulo {
+    margin: -20px 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid;
+    font-size: 1.5rem;
+    background-color: rgb(255, 102, 0);
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;;
+    height: 200px;
+    padding-top: 40px;
+}
+
+.carta1 p{
+    text-align: left;
+    font-size: 16.3px;
+    margin-bottom: -14px;
+    margin-left: 25px;
+}
+
+.descripcion {
+    height: 45%;
+    padding-top: 20px;
+}
