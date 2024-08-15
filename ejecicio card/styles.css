@@ -11,19 +11,36 @@
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin-right: 15px
 }
 
 .carta2 {
-    
+    background-color: rgb(55, 55, 75);
+    width: 330px;
+    height: 550px;
+    border: solid;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
-.titulo {
+.carta1 .titulo {
     margin: -20px 70px;
     padding-top: 5px;
     padding-bottom: 5px;
     border: solid;
     font-size: 1.5rem;
     background-color: rgb(255, 102, 0);
+    border-radius: 10px;
+}
+
+.carta2 .titulo {
+    margin: -20px 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid;
+    font-size: 1.5rem;
+    background-color: rgb(74, 74, 95);
     border-radius: 10px;
 }
 
