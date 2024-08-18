@@ -11,15 +11,16 @@
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    margin-right: 15px
+    margin-right: 15px;
+    margin-top: 50px;
 }
 
 .carta2 {
     background-color: rgb(55, 55, 75);
-    width: 330px;
+    width: 350px;
     height: 550px;
-    border: solid;
-    border-radius: 15px;
+    border: solid 4px;
+    border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
@@ -35,19 +36,38 @@
 }
 
 .carta2 .titulo {
-    margin: -20px 70px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: solid;
-    font-size: 1.5rem;
+    margin: -20px 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: bisque;
+    border: solid black 4px;
+    font-size: 0.8rem;
     background-color: rgb(74, 74, 95);
-    border-radius: 10px;
+    border-radius: 15px;
+
 }
 
-img {
+.carta1 img {
     width: 200px;;
     height: 200px;
     padding-top: 40px;
+}
+
+.carta2 img {
+    width: 320px;
+    height: 180px;
+    margin-top: 33px;
+}
+
+.carta2 .atributos {
+    background-color: rgba(134, 218, 148, 0.267);
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 320px;
+    height: 200px;
+    margin-left: 15px;
+    color: beige;
+    text-align: left;
 }
 
 .carta1 p{
@@ -57,7 +77,18 @@ img {
     margin-left: 25px;
 }
 
+.carta2 .stats {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 0.8em;
+    border-bottom: solid 1px;
+
+}
+
 .descripcion {
     height: 45%;
     padding-top: 20px;
 }
+
