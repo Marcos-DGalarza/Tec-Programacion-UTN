@@ -60,11 +60,11 @@
 }
 
 .carta2 .atributos {
-    background-color: rgba(134, 218, 148, 0.267);
+    background-color: rgba(134, 218, 148, 0.164);
     border-radius: 15px;
     margin-top: 15px;
     width: 320px;
-    height: 200px;
+    height: 190px;
     margin-left: 15px;
     color: beige;
     text-align: left;
@@ -84,11 +84,35 @@
     margin-right: 10px;
     font-size: 0.8em;
     border-bottom: solid 1px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
-.descripcion {
+.carta1 .descripcion {
     height: 45%;
     padding-top: 20px;
 }
 
+.carta2 .descripcion {
+    background-color: rgba(134, 218, 148, 0.164);
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.carta2 .descripcion p {
+    font-size: 0.7em;
+    color: beige;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.carta2 .stats:last-child {
+    border: none;
+}
