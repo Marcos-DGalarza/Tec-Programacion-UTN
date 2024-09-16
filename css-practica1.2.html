@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Grid Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                "header header header"
+                "nav main aside"
+                "footer footer footer";
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: 200px 1fr 200px;
+            height: 100vh;
+        }
+        header {
+            grid-area: header;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            grid-area: nav;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        main {
+            grid-area: main;
+            padding: 20px;
+        }
+        aside {
+            grid-area: aside;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        footer {
+            grid-area: footer;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>Encabezado</h1>
+        </header>
+        <nav>
+            <h2>Navegación</h2>
+            <ul>
+                <li>Enlace 1</li>
+                <li>Enlace 2</li>
+                <li>Enlace 3</li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Contenido Principal</h2>
+            <p>Este es el contenido principal de la página.</p>
+        </main>
+        <aside>
+            <h2>Barra Lateral</h2>
+            <p>Este es el contenido de la barra lateral.</p>
+        </aside>
+        <footer>
+            <p>Pie de Página</p>
+        </footer>
+    </div>
+</body>
+</html>
