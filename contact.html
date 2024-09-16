@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+    <div class="formulario">
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Ingrese nombre.." required>
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese e-mail.." required>
+        
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Ingrese subject.." required>
+        
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" placeholder="Ingrese mensaje.."></textarea>
+        
+            <input class="Botones Enviar" type="submit" value="Enviar">
+            <button class="Botones Return" onclick="window.location.href='/index.html'">Volver</button>
+        </form>
+    </div>
+</body>
+</html>
